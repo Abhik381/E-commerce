@@ -11,5 +11,7 @@ app.set("view engine","ejs")
 
 
 app.get("/", function(req,res){
-    res.send("h")
+    res.send("hii")
 })
+
+app.listen(300)
